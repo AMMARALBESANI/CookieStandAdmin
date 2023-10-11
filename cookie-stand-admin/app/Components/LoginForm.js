@@ -46,7 +46,7 @@ const LoginForm = ({ onLogin }) => {
           <div className="text-center">
             <button
               type="submit"
-              className="px-4 py-2 font-bold bg-orange-400 rounded text-stone-600 hover:bg-orange-300 focus:outline-none focus:shadow-outline"
+              className="px-4 py-2 font-bold bg-green-400 rounded text-stone-600 hover:bg-green-300 focus:outline-none focus:shadow-outline"
             >
               Login
             </button>
