@@ -28,7 +28,7 @@ function CreateForm({ onCreate }) {
   return (
     <div className="flex items-center justify-center pt-12">
       <form
-        className="flex flex-col items-center w-4/6 p-5 bg-orange-300 rounded-lg content-box"
+        className="flex flex-col items-center w-4/6 p-5 bg-green-300 rounded-lg content-box"
         onSubmit={handleSubmit}
       >
         <p className="text-2xl font-bold text-stone-600">Create Cookie stand</p>
@@ -110,7 +110,7 @@ function CreateForm({ onCreate }) {
           </div>
           <div className="w-full px-3 mb-6 md:w-1/4 md:mb-0">
             <button
-              className="min-w-full min-h-full text-2xl font-bold bg-orange-400 rounded-lg text-stone-600"
+              className="min-w-full min-h-full text-2xl font-bold bg-green-400 rounded-lg text-stone-600"
               type="submit"
             >
               Create
